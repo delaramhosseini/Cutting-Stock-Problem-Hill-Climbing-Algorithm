@@ -6,20 +6,20 @@ This project implements the **Hill Climbing Algorithm** to solve the **Cutting S
 
 The **Hill Climbing Algorithm** is a local search optimization technique used to find the best possible solution for a given problem by incrementally improving an initial solution. In this project, it is applied to find an efficient cutting pattern for rolls of material to meet customer requests while minimizing waste.
 
-## Hill Climbing Algorithm Overview
+### Hill Climbing Algorithm Overview
 
 The **Hill Climbing Algorithm** is a local search optimization technique that starts with an initial solution and iteratively improves it by exploring neighboring solutions. The algorithm works by moving to the best neighboring solution (the one that improves the current state the most) and repeating the process until no better neighbors are found or a stopping condition is met.
 
-### Key Characteristics of Hill Climbing:
+#### Key Characteristics of Hill Climbing:
 - **Local Search**: Hill Climbing only explores neighboring solutions, meaning it can get stuck in local optima (suboptimal solutions that are better than surrounding solutions but not globally optimal).
 - **Greedy Approach**: It always chooses the best solution from the current set of neighbors, making it a greedy algorithm.
 - **Simple to Implement**: The algorithm is easy to implement and can quickly find reasonable solutions for many optimization problems.
 
-### Advantages:
+#### Advantages:
 - **Efficiency**: It can find good solutions quickly in many practical problems.
 - **Simplicity**: The algorithm is easy to understand and implement, making it a popular choice for basic optimization tasks.
 
-### Limitations:
+#### Limitations:
 - **Local Optima**: Since the algorithm only considers local neighbors, it can get stuck in suboptimal solutions without finding the global optimum.
 - **No Backtracking**: Once a solution is accepted, the algorithm doesn't explore previous solutions, which may lead to missing better alternatives.
 
